@@ -1,0 +1,73 @@
+body{
+	background-image: url("streetFollower.jpg");
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+.right{
+	float: right;
+}
+span {
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+}
+.hihi{
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  color: red;
+}
+.haha{
+	-webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 20s;	
+  color: green;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {
+  	color: pink;
+  	font-size: 0px;
+  }
+  to {
+  	color: red;
+  	font-size: 30px;
+  }
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {
+  	color: pink;
+  	font-size: 0px;
+  }
+  to {
+  	color: red;
+  	font-size: 30px;
+  }
+}
+@-webkit-keyframes example2 {
+  from {
+  	color: pink;
+  	font-size: 0px;
+  }
+  to {
+  	color: green;
+  	font-size: 30px;
+  }
+}
+
+/* Standard syntax */
+@keyframes example2 {
+  from {
+  	color: pink;
+  	font-size: 0px;
+  }
+  to {
+  	color: green;
+  	font-size: 30px;
+  }
+}
